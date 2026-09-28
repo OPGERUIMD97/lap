@@ -1,0 +1,73 @@
+# Preview build (NOT part of the PR): unsigned macOS Intel DMG with the Dutch translation.
+# Lives only on branch preview/nl-mac-build in OPGERUIMD97/lap.
+name: NL preview build (macOS Intel)
+
+on:
+  push:
+    branches: [preview/nl-mac-build]
+  workflow_dispatch:
+
+concurrency:
+  group: nl-preview-mac
+  cancel-in-progress: true
+
+jobs:
+  build-macos-intel:
+    runs-on: macos-15-intel
+    timeout-minutes: 120
+    env:
+      TARGET: x86_64-apple-darwin
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: System dependencies
+        run: brew install nasm pkg-config
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: x86_64-apple-darwin
+
+      - name: Cache Rust
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/registry/index/
+            ~/.cargo/registry/cache/
+            ~/.cargo/git/db/
+            src-tauri/target/
+          key: macos-intel-cargo-${{ hashFiles('**/Cargo.lock') }}
+
+      - name: FFmpeg sidecars
+        run: bash scripts/download_ffmpeg_sidecar.sh macos x86_64
+
+      - name: AI models
+        run: bash scripts/download_models.sh
+
+      - name: Frontend dependencies
+        run: pnpm install --frozen-lockfile
+        working-directory: src-vite
+
+      - name: Build app (unsigned)
+        uses: tauri-apps/tauri-action@v0.5
+        with:
+          projectPath: .
+          args: --target x86_64-apple-darwin --bundles dmg --config '{"bundle":{"createUpdaterArtifacts":false}}'
+
+      - name: Upload DMG
+        uses: actions/upload-artifact@v4
+        with:
+          name: Lap-NL-preview-macOS-Intel
+          path: src-tauri/target/x86_64-apple-darwin/release/bundle/dmg/*.dmg
+          if-no-files-found: error
+          retention-days: 14
