@@ -22,6 +22,7 @@ import ko from '@/locales/ko.json'
 import ru from '@/locales/ru.json'
 import pt from '@/locales/pt.json'
 import pl from '@/locales/pl.json'
+import nl from '@/locales/nl.json'
 
 // Create the app instance
 const app = createApp(App)
@@ -65,7 +66,8 @@ const i18n = createI18n({
     ko,
     ru,
     pt,
-    pl
+    pl,
+    nl
   },
 })
 
