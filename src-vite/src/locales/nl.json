@@ -226,7 +226,7 @@
   },
   "offline": {
     "original_unavailable": "Het oorspronkelijke bestand is niet beschikbaar",
-    "requires_original": "Vereist het oorspronkelijke bestand. Sluit het opslagapparaat opnieuw aan."
+    "requires_original": "Hiervoor is het oorspronkelijke bestand nodig. Sluit het opslagapparaat opnieuw aan om deze actie te gebruiken."
   },
   "import_files": {
     "title": "Bestanden importeren",
@@ -1095,7 +1095,7 @@
       "shadow": "Schaduwen tekenen",
       "style": "Stijl",
       "export": "Exporteren: {size}",
-      "random_rotation": "Willekeurige rotatie",
+      "random_rotation": "Willekeurig draaien",
       "border_width": "Randdikte",
       "page": "Pagina",
       "page_size": "Formaat",
@@ -1296,8 +1296,8 @@
       "select_language": "Kies taal",
       "date_time_format": "Datum- en tijdnotatie",
       "date_time_format_options": [
-        "Volg systeem",
-        "Volg app-taal"
+        "Systeem volgen",
+        "App-taal volgen"
       ],
       "font_size": "Lettergrootte",
       "font_size_options": [
@@ -1313,9 +1313,9 @@
     },
     "raw": {
       "title": "RAW",
-      "section_pairs": "Gepaarde bestanden",
+      "section_pairs": "Gekoppelde bestanden",
       "pair_source": "Standaardweergave voor paren",
-      "pair_source_hint": "Gebruikt voor gepaarde miniaturen en voorbeelden",
+      "pair_source_hint": "Gebruikt voor miniaturen en voorbeelden van gekoppelde bestanden",
       "pair_jpeg": "JPEG / HEIC",
       "rawPreviewSource": "Standaardvoorbeeldbron",
       "preview_source_hint": "Als de voorkeursbron ontbreekt, wordt de andere gebruikt",
@@ -1323,13 +1323,13 @@
       "option_embedded": "Ingesloten voorbeeld eerst",
       "option_rendered": "RAW eerst renderen",
       "option_original": "Originele belichting",
-      "option_brightened": "Ophelderd",
+      "option_brightened": "Helderder",
       "brightness_hint": "Geldt alleen voor RAW-rendering",
       "switch_to": "Overschakelen naar {source}",
       "show_pair": "Gekoppelde {format} tonen",
       "source_embedded": "Ingesloten",
       "source_rendered": "Gerenderd",
-      "source_brightened": "Ophelderd",
+      "source_brightened": "Helderder",
       "preview_mode": "RAW-voorbeeldmodus"
     },
     "browse": {
