@@ -2,6 +2,8 @@
 
 > Onofficiële Nederlandstalige handleiding voor [Lap](https://github.com/julyx10/lap), de gratis, lokale fotobeheerder voor Windows, macOS en Linux. Geschreven door [Mc5](https://github.com/OPGERUIMD97), maker van de Nederlandse vertaling van Lap. Deze handleiding is geen onderdeel van het Lap-project zelf.
 >
+> 📄 **[Download deze handleiding als PDF](Handleiding-Lap-NL.pdf)** (A4, om te printen of te delen)
+>
 > Lap downloaden: [nieuwste release](https://github.com/julyx10/lap/releases/latest) · Vragen of fouten in Lap: [issues van Lap](https://github.com/julyx10/lap/issues)
 
 ## Inhoud
