@@ -1,6 +1,6 @@
 # Handleiding Lap (Nederlands)
 
-> Onofficiële Nederlandstalige handleiding voor [Lap](https://github.com/julyx10/lap), de gratis, lokale fotobeheerder voor Windows, macOS en Linux. Geschreven door [OPGERUIMD97](https://github.com/OPGERUIMD97), maker van de Nederlandse vertaling van Lap. Deze handleiding is geen onderdeel van het Lap-project zelf.
+> Onofficiële Nederlandstalige handleiding voor [Lap](https://github.com/julyx10/lap), de gratis, lokale fotobeheerder voor Windows, macOS en Linux. Geschreven door [Mc5](https://github.com/OPGERUIMD97), maker van de Nederlandse vertaling van Lap. Deze handleiding is geen onderdeel van het Lap-project zelf.
 >
 > Lap downloaden: [nieuwste release](https://github.com/julyx10/lap/releases/latest) · Vragen of fouten in Lap: [issues van Lap](https://github.com/julyx10/lap/issues)
 
@@ -463,3 +463,11 @@ Deze vragen komen uit de [GitHub-issues](https://github.com/julyx10/lap/issues) 
 ### Kom je er niet uit?
 
 Zoek in de [bestaande issues](https://github.com/julyx10/lap/issues) of maak een nieuwe aan (in het Engels). Vermeld je besturingssysteem, je Lap-versie (**Instellingen → Over**) en de stappen om het probleem na te doen.
+
+---
+
+## Licentie
+
+© 2026 Mc5. Deze handleiding valt onder de licentie [Creative Commons Naamsvermelding 4.0 Internationaal (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.nl). Je mag de tekst delen en bewerken, ook voor commerciële doeleinden, zolang je Mc5 als maker vermeldt, naar deze licentie linkt en aangeeft of je iets hebt veranderd.
+
+Lap zelf is een project van [julyx10](https://github.com/julyx10/lap) en valt onder een eigen licentie (GPL-3.0-or-later).
