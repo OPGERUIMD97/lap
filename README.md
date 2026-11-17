@@ -311,7 +311,7 @@ Doe dit in Lap in plaats van in je bestandsbeheerder. Lap werkt dan meteen zijn 
 
 **Batch hernoemen:** typ bij **Naam** een nieuwe naam, kies bij **Begin bij** het eerste nummer en bij **Cijfers** hoeveel cijfers het nummer krijgt (bijvoorbeeld `001`), of **Geen nullen**. Het **Voorbeeld** toont per bestand de **Huidige naam** en de **Nieuwe naam**; de eerste 100 worden getoond, maar alle geselecteerde bestanden worden hernoemd.
 
-**Verwijderen van een RAW-paar:** Lap vraagt welke **Te verwijderen RAW-paardbestanden** je bedoelt: **Beide bestanden**, **Alleen RAW** of **Alleen JPEG / HEIC**.
+**Verwijderen van een RAW-paar:** Lap vraagt welke bestanden van het paar weg moeten: **Beide bestanden**, **Alleen RAW** of **Alleen JPEG / HEIC**.
 
 Wat de **Delete**-toets standaard doet, stel je in bij **Instellingen → Geavanceerd → Bestanden verwijderen → Bij het verwijderen van bestanden**: **Naar prullenbak** (één bestand gaat dan zonder vraag naar de prullenbak) of **Definitief verwijderen** (altijd met bevestiging). Lap onthoudt die keuze. Kan een bestand niet naar de prullenbak, bijvoorbeeld op een netwerkschijf zonder prullenbak, dan vraagt Lap of het definitief verwijderd mag worden.
 
@@ -573,7 +573,7 @@ Deze vragen komen uit de [GitHub-issues](https://github.com/julyx10/lap/issues) 
 
 **Video's spelen niet af op Linux.** Installeer de GStreamer-plug-ins: `sudo apt install gstreamer1.0-libav gstreamer1.0-plugins-good`.
 
-**Een videoformaat wordt niet ondersteund.** Stel een externe speler in bij **Instellingen → Geavanceerd → Externe apps** en open de video met **Ctrl+E**.
+**Een videoformaat wordt niet ondersteund.** Stel een externe speler in bij **Instellingen → Geavanceerd → Externe apps** en open de video met **Ctrl+Shift+E** (Mac: **⇧⌘E**).
 
 ### Kom je er niet uit?
 
