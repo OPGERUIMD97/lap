@@ -22,7 +22,7 @@
 
 Lap is een gratis fotobeheerder die rechtstreeks met je eigen mappen werkt: je foto's blijven waar ze staan en alles draait op je eigen computer. Dit stappenplan volgt de volgorde waarin je Lap leert kennen, van het eerste album tot back-ups en veelgestelde vragen.
 
-Bijgewerkt voor **Lap 0.4.0**. Sinds versie 0.3.3 is Lap ook in het Nederlands beschikbaar; deze handleiding gebruikt de Nederlandse namen van knoppen en menu's, met de Engelse naam tussen haakjes voor wie Lap in het Engels gebruikt.
+Bijgewerkt voor **Lap 0.4.1**. Sinds versie 0.3.3 is Lap ook in het Nederlands beschikbaar; deze handleiding gebruikt de Nederlandse namen van knoppen en menu's, met de Engelse naam tussen haakjes voor wie Lap in het Engels gebruikt.
 
 **Windows, macOS en Linux.** Lap werkt op alle drie hetzelfde. Toetscombinaties staan in deze handleiding met **Ctrl**; op een Mac gebruik je daarvoor **⌘** (Command). Waar een toets op de Mac anders is, staat dat erbij. *Rechtsklik* betekent op een Mac: Control-klik of met twee vingers klikken. Met *bestandsbeheerder* bedoelen we Verkenner (Windows), Finder (macOS) of de bestandsbeheerder van je Linux-systeem.
 
@@ -144,6 +144,16 @@ Tags, Locaties en Camera's hebben een eigen zoekveld in de zijbalk, en je kunt d
 - In de selectiemodus staat rechtsboven een balkje met het aantal geselecteerde bestanden (bijvoorbeeld *12 geselecteerd*). Klik erop voor het **Selectie**-paneel, met bulkacties: favoriet, taggen, beoordelen, in een collectie zetten, verplaatsen, kopiëren, verwijderen of een collage maken. De statusbalk onderaan toont het aantal items en de totale grootte.
 - Je kunt de selectiemodus ook starten met de knop **Selectie** in de werkbalk. Stoppen doe je met het kruisje in het balkje (**Selectiemodus beëindigen**) of met **Esc**.
 - Een RAW+JPEG/HEIC-paar of een Live Photo telt als één item, ook bij selecteren, slepen, kopiëren en verwijderen.
+
+### De statusbalk aanpassen
+
+Onderaan het venster staat de statusbalk, met het aantal items, de totale grootte en gegevens over het huidige bestand. Sinds 0.4.1 bepaal je zelf welke gegevens daar staan:
+
+1. Klik met rechts op de statusbalk en kies **Statusbalk aanpassen…** (*Customize Status Bar…*). Dezelfde knop staat bij **Instellingen → Algemeen → Interface**, naast **Statusbalk tonen**.
+2. Vink de velden aan die je wilt zien: **Bestandsnaam (grootte)**, **Afmetingen**, **Map**, **Album**, **Kleurinformatie**, **Opgenomen op**, **Camera**, **Objectief**, **Belichting** en **Locatie**.
+3. Versleep een veld aan het handvat ervoor om de volgorde te wijzigen.
+
+Met **Standaardinstellingen herstellen** zie je weer alleen bestandsnaam, afmetingen en map.
 
 ### Bestanden naar buiten slepen
 
@@ -286,6 +296,8 @@ Een collectie is een zelfgekozen set bestanden van overal uit je bibliotheek, bi
 2. Sleep bestanden op de collectie, of selecteer ze en druk op **B**.
 3. Klik op een collectie om hem te bekijken. **Uit collectie halen** haalt het bestand alleen uit de collectie; het bestand zelf blijft bestaan.
 
+Andere volgorde? Open het **⋯**-menu bovenaan **Collecties**, kies **Volgorde wijzigen** (*Reorder*) en versleep de collecties aan hun handvat. Klik buiten de lijst als je klaar bent.
+
 ### Slimme albums
 
 Een slim album is een opgeslagen zoekopdracht die zichzelf bijwerkt, bijvoorbeeld *5 sterren, dit jaar gemaakt, met GPS*.
@@ -294,6 +306,8 @@ Een slim album is een opgeslagen zoekopdracht die zichzelf bijwerkt, bijvoorbeel
 2. Geef een naam en kies of bestanden aan **Alle regels** of **Een van de regels** moeten voldoen.
 3. Voeg regels toe met **Regel toevoegen**: **Mapnaam**, **Bestandsnaam**, bestandstype, beoordeling, favoriet, schiften, datums, grootte, afmetingen, oriëntatie, GPS, tag, persoon, album, collectie, camera, objectief of locatie. Bij lange lijsten (tags, personen, camera's, objectieven…) typ je in het vak **Filteren…** om snel de juiste waarde te vinden.
 4. Stel eventueel **Groeperen**, **Sorteren** en **Volgorde** in en sla op.
+
+Je slimme albums zet je in een andere volgorde via het **⋯**-menu bovenaan **Slimme albums** → **Volgorde wijzigen**; versleep ze daarna aan hun handvat en klik buiten de lijst als je klaar bent. Dat kan vanaf twee eigen slimme albums, en niet terwijl je in de lijst zoekt.
 
 ### Bestanden hernoemen, verplaatsen en verwijderen
 
@@ -391,10 +405,10 @@ De bestanden gaan naar de prullenbak van je computer, dus je kunt ze nog terugze
 
 ### Vergelijkbare foto's bekijken
 
-1. Open het tabblad **Vergelijkbare afbeeldingen** en klik op **Analyseren**. Bij veel foto's kan dat enkele minuten duren.
+1. Open het tabblad **Vergelijkbare afbeeldingen** en klik op **Vergelijkbare afbeeldingen analyseren**. Lap analyseert alleen als jij daarom vraagt. Bij veel foto's kan dat enkele minuten duren.
 2. Loop de **Vergelijkbare sets** door. Lap heeft volgens je bewaarregels al een foto op *Behouden* gezet; pas dat zo nodig aan met het slotje, selecteer de rest en klik op **Selectie verwijderen**.
 
-Hoe sterk foto's moeten lijken om in dezelfde set te komen, stel je in via **Instellingen → Zoeken → Vergelijkbare foto's → Strengheid groeperen**. Voor het kiezen van de beste foto's uit een serie is schiften met **P** en **X** (hoofdstuk 4) vaak sneller.
+Hoe sterk foto's moeten lijken om in dezelfde set te komen, stel je in via **Instellingen → Zoeken → Vergelijkbare afbeeldingen → Strengheid groeperen**. Voor het kiezen van de beste foto's uit een serie is schiften met **P** en **X** (hoofdstuk 4) vaak sneller.
 
 ## 7. Bewerken en externe apps
 
@@ -489,11 +503,20 @@ De miniaturen kunnen veel ruimte innemen. Je kunt ze naar een andere schijf verp
 
 Is die schijf later niet aangesloten, dan meldt Lap dat. Je kunt dan doorgaan met **Doorgaan en opnieuw maken**: Lap maakt de miniaturen zo nodig op de nieuwe plek opnieuw, en je foto's en bibliotheekgegevens blijven ongewijzigd. Op dezelfde plek kies je bij **Resolutie van miniaturen wijzigen** voor **Laag (256 px)**, **Standaard (512 px)** of **Hoog (1024 px)**.
 
+### Ongebruikte miniaturen opruimen
+
+Na het verwijderen of verplaatsen van foto's blijven er soms miniaturen achter die niemand meer gebruikt. Sinds 0.4.1 ruim je die voor alle bibliotheken in één keer op:
+
+1. Open **Instellingen → Geavanceerd → Miniaturencache**.
+2. Klik naast **Clean unused cache** op **Clean**. Deze teksten zijn in 0.4.1 nog niet in het Nederlands vertaald.
+
+Lap toont de voortgang per bibliotheek en meldt daarna hoeveel ruimte is vrijgekomen. Je foto's en bibliotheekgegevens blijven ongewijzigd.
+
 ### Meerdere bibliotheken
 
 Extra bibliotheken zijn handig voor volledig gescheiden verzamelingen, zoals *Familie* en *Werk*, elk met eigen albums, tags en instellingen. Klik op de bibliotheeknaam bovenaan de zijbalk om te wisselen, of kies **Bibliotheken beheren…** om ze toe te voegen, te hernoemen, te verbergen of te verwijderen. Een bibliotheek verwijderen wist de database (albums, tags, sterren), maar nooit je foto's.
 
-In **Bibliotheken beheren** zie je per bibliotheek hoeveel ruimte de miniaturencache inneemt; met **Ongebruikte cache opschonen** maak je die ruimte vrij.
+In **Bibliotheken beheren** zie je per bibliotheek hoeveel ruimte de miniaturencache inneemt. Opruimen doe je sinds 0.4.1 bij **Instellingen → Geavanceerd → Miniaturencache** (zie hierboven).
 
 ### Externe schijven en NAS
 
@@ -535,6 +558,8 @@ Deze vragen komen uit de [GitHub-issues](https://github.com/julyx10/lap/issues) 
 
 **Mijn RAW-foto's zien er donkerder of anders uit dan in de camera.** Kies bij **Instellingen → RAW** een andere **Standaardvoorbeeldbron**: het **Ingesloten voorbeeld** lijkt het meest op de camera, **Automatisch oplichten** maakt een gerenderde RAW lichter. In de viewer wissel je per foto via het RAW-label of met **Alt+R** (Mac: **⌥R**).
 
+**Bijsnijden of bewerken van een foto mislukt.** Vaak past de inhoud van het bestand niet bij de extensie, bijvoorbeeld een PNG die als `.jpg` is opgeslagen. Werk bij naar 0.4.1: Lap herkent dan het echte formaat.
+
 **Ik wil alleen de JPEG van een RAW-paar weggooien.** Druk op **Delete** en kies **Alleen JPEG / HEIC**. Zie hoofdstuk 4.
 
 **Sneltoetsen doen niets of iets anders op mijn AZERTY-toetsenbord.** Werk bij naar 0.4.0: sneltoetsen volgen nu de letter op de toets. Let op: een paar sneltoetsen zijn veranderd, zoals **Ctrl+E** voor bewerken en **Z** voor zoomen (zie de tabel in hoofdstuk 3).
@@ -559,6 +584,8 @@ Deze vragen komen uit de [GitHub-issues](https://github.com/julyx10/lap/issues) 
 
 **Waar is de opmerking (C) gebleven?** Die heet nu **Beschrijving**: rechtsklik → **Beschrijving…** of **M** voor **Metadata bewerken**.
 
+**Waar is Ongebruikte cache opschonen gebleven?** Sinds 0.4.1 staat het niet meer in **Bibliotheken beheren**, maar bij **Instellingen → Geavanceerd → Miniaturencache** (nog als **Clean unused cache**). Zie hoofdstuk 8.
+
 **Ik heb een eigen opslaglocatie gekozen, maar de oude map bestaat nog.** Sinds versie 0.3.3 meldt Lap na het verplaatsen welke oude bestanden niet konden worden verwijderd. Controleer eerst of Lap goed werkt met de nieuwe locatie en maak een back-up. Verwijder de genoemde oude bestanden pas daarna, met Lap afgesloten.
 
 ### Installatie
@@ -572,6 +599,10 @@ Deze vragen komen uit de [GitHub-issues](https://github.com/julyx10/lap/issues) 
 **Hoe werk ik de AppImage-versie bij?** Download de nieuwe AppImage van de [releasepagina](https://github.com/julyx10/lap/releases/latest) in plaats van de ingebouwde updater te gebruiken. Wie AppImageUpdate of AppImageLauncher gebruikt, kan daarmee ook alleen de wijzigingen downloaden.
 
 **Video's spelen niet af op Linux.** Installeer de GStreamer-plug-ins: `sudo apt install gstreamer1.0-libav gstreamer1.0-plugins-good`.
+
+**Lap sluit vanzelf af als ik een video open (macOS).** Dat gebeurde in 0.4.0 bij het openen van een video of het wisselen tussen video's met de pijltjestoetsen, vooral in mappen met foto's én video's. Werk bij naar 0.4.1. Meldt Lap daarna *De originele foto's en video's konden niet worden geladen*, start Lap dan opnieuw.
+
+**Het venster van Lap is doorzichtig (Linux).** Werk bij naar 0.4.1. Daarin is het venster weer gewoon dicht, en heeft het bij de eerste start dezelfde grootte als op Windows en macOS.
 
 **Een videoformaat wordt niet ondersteund.** Stel een externe speler in bij **Instellingen → Geavanceerd → Externe apps** en open de video met **Ctrl+Shift+E** (Mac: **⇧⌘E**).
 
