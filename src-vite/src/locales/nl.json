@@ -1752,6 +1752,16 @@
         "tianditu_token_status_empty": "Niet ingesteld"
       },
       "thumbnail_cache": {
+        "cleanup": {
+          "title": "Ongebruikte cache opschonen",
+          "hint": "Ongebruikte miniaturen van de vermelde bibliotheken opschonen",
+          "button": "Opschonen",
+          "progress": "Bezig met {current} / {total} · {name}",
+          "freed": "{size} vrijgemaakt.",
+          "empty": "Geen ongebruikte miniaturencache om op te schonen.",
+          "failed": "Deze bibliotheken konden niet worden opgeschoond:",
+          "list_error": "Kan de lijst met bibliotheken niet laden."
+        },
         "rolling_back": "Terugdraaien…",
         "cancelled": "Geannuleerd. De oorspronkelijke cache is behouden.",
         "new_location": "Nieuwe locatie: {path}",
